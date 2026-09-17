@@ -1,0 +1,2 @@
+import { Products } from "@/components/products";
+export default function Produkte(){return <main><section className="section" style={{paddingBottom:0}}><div className="container"><span className="eyebrow">Das Angebot</span><h1>Bäume, Schalen und Werkzeug</h1><p>Eine kleine, sorgfältig zusammengestellte Auswahl. Auf ein Produkt klicken zeigt Details, Pflegehinweise und Maße.</p></div></section><section className="section" style={{paddingTop:24}}><div className="container"><Products/></div></section></main>}
